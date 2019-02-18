@@ -1,0 +1,335 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0037)http://www.xpmachine.com/yeyuhack.htm -->
+<HTML><HEAD><TITLE>Hacked By [hack]</TITLE>
+<META content=zh-cn http-equiv=Content-Language>
+<SCRIPT language=javascript type=text/javascript></SCRIPT>
+
+<META content="text/html; charset=UTF-8" http-equiv=Content-Type><BGSOUND 
+loop=infinite src="src/fbi.mp3">
+<script type="text/javascript"> 
+
+    function Is() { 
+
+        var agent = navigator.userAgent.toLowerCase(); 
+
+        this.major = parseInt(navigator.appVersion); 
+
+        this.minor = parseFloat(navigator.appVersion); 
+
+        this.ns  = ((agent.indexOf('mozilla')!=-1) && ((agent.indexOf('spoofer')==-1) && (agent.indexOf('compatible') == -1))); 
+
+        this.ns2 = (this.ns && (this.major == 2)); 
+
+        this.ns3 = (this.ns && (this.major == 3)); 
+
+        this.ns4b = (this.ns && (this.major == 4) && (this.minor <= 4.03)); 
+
+        this.ns4 = (this.ns && (this.major >= 4)); 
+
+        this.ie   = (agent.indexOf("msie") != -1); 
+
+        this.ie3  = (this.ie && (this.major == 2)); 
+
+        this.ie4  = (this.ie && (this.major >= 4)); 
+
+        this.op3 = (agent.indexOf("opera") != -1); 
+
+    } 
+
+ 
+
+    var is = new Is() 
+
+ 
+
+    if(is.ns4) { 
+
+        doc = "document"; 
+
+        sty = ""; 
+
+        htm = ".document" 
+
+    } else if(is.ie4) { 
+
+        doc = "document.all"; 
+
+        sty = ".style"; 
+
+        htm = "" 
+
+    } 
+
+ 
+
+    var text1 = "", text2 = "", count = 0, count2=0; 
+
+    msg = new Array(); 
+
+ 
+
+    msg[0] = "<font face=Fixedsys style='font-size:16px;'><b>Hacked by hack ; 2009-2010 </b><br>"; 
+
+    msg[1] = "   "; 
+
+    msg[1] = " 您好！尊敬的管理员:"; 
+
+    msg[2] = " 当你看到此页时.  ";  
+
+    msg[3] = " 请不要惊讶你的网站被黑了，的确被黑了~~~."; 
+
+    msg[4] = " 组织：光速联盟";  
+
+    msg[5] = " 成员：光速不变  QQ：476429467";  
+
+    msg[6] = " 本次入侵纯属安全检测！资料没有任何删除、改动、只拿webshell ！！！ ";  
+
+    msg[7] = " 光速联盟 交流群：44739364  79289204 "  ; 
+
+    msg[8] = " 欢迎加入！！！本群绝不歧视菜鸟！！！ "; 
+
+    msg[9] = " <div align=right>2010-2014 hack </div> "; 
+
+    text = msg[0].split(""); 
+
+ 
+
+    function writetext(){ 
+
+ 
+
+        text1 ='<tt>'+text2 + '<b style="color:#00FF00">'+text[count]+'</b></tt>'; 
+
+ 
+
+        text2 += text[count]; 
+
+ 
+
+        fillHTML = eval(doc + '["nothing"]' + htm); 
+
+ 
+
+        if(is.ns4) { 
+
+            fillHTML.write(text1); 
+
+            fillHTML.close(); 
+
+        } else { 
+
+            fillHTML.innerHTML = text1; 
+
+        } 
+
+ 
+
+        if (!(count >= text.length-1)){ 
+
+            count+=1; 
+
+            setTimeout('writetext()',1); 
+
+        } 
+
+        else{ 
+
+            count=0; 
+
+            text2+='<p>' 
+
+            if (count2!=9){ 
+
+                count2++ 
+
+                text = eval('msg['+count2+'].split("")'); 
+
+                setTimeout('writetext()',5); 
+
+            } 
+
+        } 
+
+    } 
+
+</script>
+
+<META name=GENERATOR content="MSHTML 8.00.6001.18975">
+<STYLE type=text/css>#nothing {
+	VISIBILITY: visible
+}
+.style6 {
+	COLOR: #000000
+}
+</STYLE>
+</HEAD>
+<BODY 
+style="BACKGROUND-IMAGE: url(http://www.hackerhf.com/scan.gif); BACKGROUND-ATTACHMENT: fixed" 
+onload=writetext(); background=src/akatelecom_com.txt 
+aLink=#008000 link=#008000 bgColor=#000000 text=#00ff00 vLink=#008000>
+<DIV style="WIDTH: 500px; HEIGHT: 293px" id=nothing>
+<P align=left></P></DIV>
+<DIV align=center>
+<CENTER>
+<P></P></CENTER></DIV>
+<script type="text/javascript"> 
+
+    var Message="普及网络安全知识,推动黑客平民化、光速联盟菜鸟技术群：44739364 "; 
+    var place=1; 
+    function scrollIn() { 
+        window.status=Message.substring(0, place); 
+        if (place >= Message.length) { 
+            place=1; 
+            window.setTimeout("Helpor_net()",300); 
+        } else { 
+            place++; 
+            window.setTimeout("scrollIn()",50); 
+        } 
+    } 
+    function Helpor_net() { 
+        window.status=Message.substring(place, Message.length); 
+        if (place >= Message.length) { 
+            place=1; 
+            window.setTimeout("scrollIn()", 100); 
+        } else { 
+            place++; 
+            window.setTimeout("Helpor_net()", 50); 
+        } 
+    } 
+    Helpor_net(); 
+
+</script>
+
+
+<script type="text/javascript"> 
+//<!--  
+    if (document.all){ 
+        Cols=23; 
+        Cl=22; 
+        Cs=40; 
+        Ts=10; 
+        Tc='#008800'; 
+        Tc1='#00ff00'; 
+        MnS=20; 
+        MxS=40; 
+        I=Cs; 
+        Sp=new Array();S=new Array();Y=new Array(); 
+        C=new Array();M=new Array();B=new Array(); 
+        RC=new Array();E=new Array();Tcc=new Array(0,1); 
+        document.write("<div id='Container' style='position:absolute;top:0;left:-"+Cs+"'>"); 
+        document.write("<div style='position:relative'>"); 
+        for(i=0; i < Cols; i++){ 
+            S[i]=I+=Cs; 
+            document.write("<div id='A' style='position:absolute;top:0;font-family:Arial;font-size:" 
+            +Ts+"px;left:"+S[i]+";width:"+Ts+"px;height:0px;color:"+Tc+";visibility:hidden'></div>"); 
+        } 
+        document.write("</div></div>"); 
+
+        for(j=0; j < Cols; j++){ 
+            RC[j]=1+Math.round(Math.random()*Cl);   
+            Y[j]=0; 
+            Sp[j]=Math.round(MnS+Math.random()*MxS);  
+            for(i=0; i < RC[j]; i++){ 
+                B[i]=''; 
+                C[i]=Math.round(Math.random()*1)+' '; 
+                M[j]=B[0]+=C[i]; 
+            } 
+        } 
+        function Cycle(){ 
+            Container.style.top=window.document.body.scrollTop; 
+            for (i=0; i < Cols; i++){ 
+                var r = Math.floor(Math.random()*Tcc.length); 
+                E[i] = '<font color='+Tc1+'>'+Tcc[r]+'</font>'; 
+                Y[i]+=Sp[i]; 
+
+                if (Y[i] > window.document.body.clientHeight){ 
+                    for(i2=0; i2 < Cols; i2++){ 
+                        RC[i2]=1+Math.round(Math.random()*Cl);   
+                        for(i3=0; i3 < RC[i2]; i3++){ 
+                            B[i3]=''; 
+                            C[i3]=Math.round(Math.random()*1)+' '; 
+                            C[Math.floor(Math.random()*i2)]=' '+' '; 
+                            M[i]=B[0]+=C[i3]; 
+                            Y[i]=-Ts*M[i].length/1.5; 
+                            A[i].style.visibility='visible'; 
+                        } 
+                        Sp[i]=Math.round(MnS+Math.random()*MxS); 
+                    } 
+                } 
+                A[i].style.top=Y[i]; 
+                A[i].innerHTML=M[i]+' '+E[i]+' '; 
+            } 
+            setTimeout('Cycle()',20) 
+        } 
+        Cycle(); 
+    } 
+    // --> 
+</script>
+----------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+<style>
+    BODY {
+	BACKGROUND-IMAGE: none; SCROLLBAR-ARROW-COLOR: red; BACKGROUND-COLOR: #000000; SCROLLBAR-BASE-COLOR: black
+}
+A:hover {
+	COLOR: red; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: black; TEXT-DECORATION: none
+}
+.style1 {
+	COLOR: #999999
+}
+.style2 {
+	FONT-FAMILY: Verdana; COLOR: #999999; FONT-SIZE: 12px
+}
+</style>
+
+
+<script type="text/javascript">
+
+    var x = 0
+    var speed = 90
+
+    function Scroll() {
+        window.status = text2.substring(0, text2.length)
+        if (course < text2.length) {
+            setTimeout("Scroll2()", speed)
+        }
+        else {
+            text2 = " " + text2
+            setTimeout("Scroll()", speed);
+        }
+    }
+    function Scroll2() {
+        window.status = text2.substring(x, text2.length)
+        if (text2.length - x == text.length) { 
+            text2 = text
+            x = 0
+            setTimeout("Scroll()", speed);
+        }
+        else {
+            x++
+            setTimeout("Scroll2()", speed);
+        }
+    }
+    Scroll()
+
+</script>
+<BR><BR><BR><BR><BR>
+<P align=center><B><FONT color=#ff0000 size=10 face=Impact>此站被黑 
+暂停浏览</FONT><BR><BR><BR><BR><BR><FONT size=5 face=Impact><SPAN class=style1><FONT 
+color=#00ffff>Servers Refused to visit , Please Wait . . . . . 
+.</FONT></SPAN></FONT><FONT color=#00ffff> </FONT><BR><BR><FONT 
+color=#00ff00><BR></FONT><FONT size=5 face=Verdana><SPAN class=style1><FONT 
+color=#00ff00>尊敬的管理员，当你看到此页时请不要惊讶你的网站被黑了，的确被黑了~~~</FONT></SPAN></FONT><FONT 
+color=#00ff00> <BR><BR></FONT><FONT size=5 face=Impact><SPAN class=style1><FONT 
+color=#00ff00>友情检测并无恶意</FONT> </SPAN></FONT></B></P>
+<P align=center><SPAN class=style1><B><FONT color=#0000ff size=5 
+face=Impact>不提权、不挂马、不删数据</FONT></B></SPAN><B><FONT color=#0000ff 
+size=5>，</FONT></B></P>
+<P align=center><B><FONT color=#0000ff size=5>只拿webshell</FONT><BR><BR><SPAN 
+class=style3><FONT color=red>BY:夜雨</FONT></SPAN> <BR><BR><SPAN 
+class=style2><FONT color=#0000ff size=3>QQ:</FONT><FONT color=#ff0000 
+size=3>476429467</FONT></SPAN> </P></B></SPAN></BODY></HTML>

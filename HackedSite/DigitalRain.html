@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<body></body>
+<script>
+//重写了下- -！ By 次碳酸钴
+function _(e){return document.createElement(e);};
+var bg = _("div");
+with(bg.style){
+   width = "100%";
+   height = "100%";
+   top = "0px";
+   left = "0px";
+   overflow = "hidden";
+   position = "absolute";
+   background = "black";
+};
+document.body.appendChild(bg);
+setInterval(function(){
+   var div = _("div");
+   with(div.style){
+     lineHeight = "14px";
+     height = "112px";
+     width = "10px";
+     overflow = "hidden";
+     wordBreak = "break-all";
+     position = "absolute";
+     fontSize = "16px";
+     top = "-112px";
+     left = bg.offsetWidth * Math.random() + "px";
+     color = "#0F0";
+     for(i=0;i<8;i++)div.innerHTML += parseInt(Math.random()*2);
+     (function(e,s){
+       var h = bg.offsetHeight;
+       var t = -112;
+       var itv = setInterval(function(){
+         e.style.top = (t+=(5+s)) + "px";
+         if(t>h){
+           clearInterval(itv);
+           bg.removeChild(e);
+         };
+       },1);
+     })(div,Math.random()*8);
+   };
+   bg.appendChild(div);
+},100);
+</script>
