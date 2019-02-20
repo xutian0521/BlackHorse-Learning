@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace StringAndIOTextStream.Usage
+namespace StreamStringIO.Usage
 {
     public class FileCopyTest
     {

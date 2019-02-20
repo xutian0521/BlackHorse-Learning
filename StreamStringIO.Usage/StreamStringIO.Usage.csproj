@@ -8,8 +8,8 @@
     <ProjectGuid>{ADC57E6B-A6C3-4066-857C-57839D1CA8E2}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StringAndIOTextStream.Usage</RootNamespace>
-    <AssemblyName>StringAndIOTextStream.Usage</AssemblyName>
+    <RootNamespace>StreamStringIO.Usage</RootNamespace>
+    <AssemblyName>StreamStringIO.Usage</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>

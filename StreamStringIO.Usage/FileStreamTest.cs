@@ -5,7 +5,7 @@ using System.Text;
 using System.IO;
 using System.Diagnostics;
 
-namespace StringAndIOTextStream.Usage
+namespace StreamStringIO.Usage
 {
 
     public class FileStreamTest

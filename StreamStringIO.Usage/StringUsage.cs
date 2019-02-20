@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace StringAndIOTextStream.Usage
+namespace StreamStringIO.Usage
 {
     /// <summary>
     /// System.string 类的用法

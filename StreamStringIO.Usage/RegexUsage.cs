@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 using System.IO;
 using System.Net;
 
-namespace StringAndIOTextStream.Usage
+namespace StreamStringIO.Usage
 {
     public class RegexUsage
     {
