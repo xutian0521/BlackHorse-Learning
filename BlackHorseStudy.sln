@@ -84,6 +84,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetGeneralHandler", "Asp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetWebFromHandler", "AspNetWebFromHandler\AspNetWebFromHandler.csproj", "{B808E395-59A3-4465-B444-5D029A99F891}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win32.Samples", "Win32.Samples\Win32.Samples.csproj", "{70E9D63C-51FD-41F6-AA07-02B8B62FA219}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -278,6 +280,14 @@ Global
 		{B808E395-59A3-4465-B444-5D029A99F891}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B808E395-59A3-4465-B444-5D029A99F891}.Release|x86.ActiveCfg = Release|Any CPU
 		{B808E395-59A3-4465-B444-5D029A99F891}.Release|x86.Build.0 = Release|Any CPU
+		{70E9D63C-51FD-41F6-AA07-02B8B62FA219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E9D63C-51FD-41F6-AA07-02B8B62FA219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E9D63C-51FD-41F6-AA07-02B8B62FA219}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{70E9D63C-51FD-41F6-AA07-02B8B62FA219}.Debug|x86.Build.0 = Debug|Any CPU
+		{70E9D63C-51FD-41F6-AA07-02B8B62FA219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E9D63C-51FD-41F6-AA07-02B8B62FA219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E9D63C-51FD-41F6-AA07-02B8B62FA219}.Release|x86.ActiveCfg = Release|Any CPU
+		{70E9D63C-51FD-41F6-AA07-02B8B62FA219}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
