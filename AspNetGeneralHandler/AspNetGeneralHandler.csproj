@@ -110,7 +110,6 @@
       <DependentUpon>ModifyHandler.ashx</DependentUpon>
     </Compile>
     <Compile Include="PageHelper.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UpImgTest.ashx.cs">
       <DependentUpon>UpImgTest.ashx</DependentUpon>
     </Compile>
@@ -133,6 +132,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Properties\" />
     <Folder Include="updown\" />
   </ItemGroup>
   <PropertyGroup>

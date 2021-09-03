@@ -17,7 +17,7 @@ namespace MiniExplorer.Example
             InitializeComponent();
         }
 
-        string path = @"D:\Document\如鹏网\微服务\";
+        string path = @"D:\";
         string ext = "*.txt";
         private void Form1_Load(object sender, EventArgs e)
         {
