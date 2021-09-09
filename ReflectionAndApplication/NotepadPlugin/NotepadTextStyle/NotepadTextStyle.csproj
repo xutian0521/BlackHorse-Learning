@@ -49,7 +49,6 @@
     <Compile Include="frmSetTextStyle.Designer.cs">
       <DependentUpon>frmSetTextStyle.cs</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ExtEditorInterface\ExtEditorInterface.csproj">
@@ -61,6 +60,9 @@
     <EmbeddedResource Include="frmSetTextStyle.resx">
       <DependentUpon>frmSetTextStyle.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
